@@ -14,7 +14,7 @@ const schema = mongoose.Schema({
         createdAt: "created_at",
         updatedAt: "updated_at"
     }
-})
+});
 
 class AuditLogs extends mongoose.Model{
 
